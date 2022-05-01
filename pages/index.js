@@ -32,7 +32,7 @@ export async function getStaticProps() {
                 id : data._id.toString()
             }))
         } ,
-        revalidate : 10
+        revalidate : 1
     }
 }
 
